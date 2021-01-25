@@ -85,7 +85,7 @@ def all_applications(job_name):
     
     rows = cur.fetchall()
     if len(rows) == 0:
-        return f, 'no application submitted'
+        return f, 'no application for ' + f'{job_name}'
 
     tmp = {}
     for row in rows:
