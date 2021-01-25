@@ -6,8 +6,7 @@ import sqlite3
 import redis
 rd = redis.Redis(host = 'localhost', port = 6379)
 
-def get_metric():
-    # insert
+def get_data_from_redis():
     conn1 = sqlite3.connect("myDB.db")
     cur1 = conn1.cursor()
     while True:
@@ -41,6 +40,6 @@ def get_metric():
     conn1.close()
 
 if __name__ == '__main__':
-    get_metric()
+    get_data_from_redis()
 
 
