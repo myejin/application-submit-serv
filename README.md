@@ -64,7 +64,7 @@ default URI : http://localhost:8080
 
 	 http://localhost:8080/job/SW/application/
 	 
-   - result : `no application submitted`
+   - result : `no application for SW`
    - This is the returned values when submitting `.../Sample/content1.txt`
       - {"supply_time": "2021-01-25 12:12:11", "application_id": "669007c530e4", "job_name": "SW"}
    - You can choose "Infra" and "Sales" instead of "SW" for job.
