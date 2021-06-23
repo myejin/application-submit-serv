@@ -1,8 +1,5 @@
 ## Introduction
-
-	This is the personal project entitled 'Application Submission/Evaluation Platform'.
-	Applicants can submit their applications using REST API. 
-	Company can get the info about applying and automatically evaluates them.
+![그림](https://user-images.githubusercontent.com/42771578/123077726-46332e00-d455-11eb-98e4-8e5207de7c34.png)
 	
 ## Requirements
 
